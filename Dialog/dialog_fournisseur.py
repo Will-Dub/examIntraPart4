@@ -94,5 +94,9 @@ class Fenetrefournisseur(QtWidgets.QDialog, UI_PY.dialog_fournisseur.Ui_Dialog):
                 fournisseur_temp.Ls_patient.append(i)
 
             fournisseur_temp.serialiserFournisseur(fournisseur_temp.Code_fournisseur + ".json")
+            self.lineEdit_code_fournisseur.clear()
+            self.lineEdit_nom_compagnie.clear()
+            self.ls_patient_listView = []
+            self.model.clear()
 
 
