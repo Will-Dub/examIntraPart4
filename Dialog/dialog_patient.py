@@ -1,3 +1,12 @@
+####################################################################################
+###  420-2G4 - Programmation orientée objet
+###  Travail: Exercice  gestion de la pharmacie
+###  Nom: William Dubuc
+###  No étudiant: 2243756
+###  No Groupe: 2
+###  Description du fichier: Dialogue patient
+####################################################################################
+#
 # Pour le gestionnaire d'événement
 from PyQt5.QtCore import pyqtSlot
 # Importer la boite de dialogue

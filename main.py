@@ -1,9 +1,9 @@
 ####################################################################################
 ###  420-2G4 - Programmation orientée objet
 ###  Travail: Exercice  gestion de la pharmacie
-###  Nom:
-###  No étudiant:
-###  No Groupe:
+###  Nom: William Dubuc
+###  No étudiant: 2243756
+###  No Groupe: 2
 ###  Description du fichier: Programme principal
 ####################################################################################
 
