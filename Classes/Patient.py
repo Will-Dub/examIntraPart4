@@ -8,6 +8,8 @@
 ####################################################################################
 
 from datetime import date
+
+
 class Patient:
     """
     Class Patient
