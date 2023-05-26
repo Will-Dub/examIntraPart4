@@ -52,6 +52,7 @@ class Fenetrepatient(QtWidgets.QDialog, UI_PY.dialog_patient.Ui_Dialog):
         for i in Patient.ls_patients:
             if i.Numero_patient == self.lineEdit_numero_patient.text():
                 bool_ajouter_etudiant_existe = True
+                break
 
         patient_temp.Numero_patient = self.lineEdit_numero_patient.text()
         patient_temp.Nom = self.lineEdit_nom_patient.text().capitalize()
