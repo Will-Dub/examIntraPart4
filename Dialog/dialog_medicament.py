@@ -165,7 +165,6 @@ class Fenetremedicament(QtWidgets.QDialog, UI_PY.dialog_medicament.Ui_Dialog_Med
 
     @pyqtSlot()
     def on_pushButton_rechercher_clicked(self):
-        print("ffff")
         cacher_labels_erreur(self)
         medicament_recherche_obj = None
 
@@ -175,7 +174,6 @@ class Fenetremedicament(QtWidgets.QDialog, UI_PY.dialog_medicament.Ui_Dialog_Med
                 break
 
         if medicament_recherche_obj is None:
-            print("None")
             self.label_erreur_code_medicament_existe_pas.setVisible(True)
             return
 

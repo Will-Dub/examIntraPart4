@@ -8,7 +8,6 @@
 ####################################################################################
 
 from Classes.Medicament import Medicament
-from Classes.Medicament import Patient
 import jsonpickle
 
 class Fournisseur:
