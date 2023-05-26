@@ -13,9 +13,18 @@ from PyQt5.QtCore import pyqtSlot
 import UI_PY.dialog_fournisseur
 from PyQt5 import QtWidgets
 
+def cacher_labels_erreur(obj):
+    """
+    Cache tous les label erreur
+    :param obj: objet Fenetre
+    """
+    obj.label_erreur_code_fournisseur.setVisible(False)
+    obj.label_erreur_nom_compagnie.setVisible(False)
+
 ######################################################
 ###### DÉFINITIONS DE LA CLASSE Fenetrelistview ######
 ######################################################
+
 
 class Fenetrefournisseur(QtWidgets.QDialog, UI_PY.dialog_fournisseur.Ui_Dialog):
     def __init__(self, parent=None):
@@ -25,4 +34,5 @@ class Fenetrefournisseur(QtWidgets.QDialog, UI_PY.dialog_fournisseur.Ui_Dialog):
         super(Fenetrefournisseur, self).__init__(parent)
         self.setupUi(self)
         self.setWindowTitle("Boîte de dialogue Fournisseur")
+        cacher_labels_erreur(self)
 
